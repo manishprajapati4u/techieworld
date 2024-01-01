@@ -11,9 +11,9 @@ class PagesController extends CI_Controller {
   }
    public function about() {
         
-        $data['meta'] = array('description'=>'','keywords'=>'','title'=>'About Us');
+        $data['meta'] = array('title'=>'About Us','description'=>'Techie World is best web development company here.','keywords'=>'Web development');
 
-        $this->load->view('coomon/header', $data);
+        $this->load->view('common/header', $data);
         $this->load->view('pages/about', $data);
         $this->load->view('common/footer', $data);
     }
