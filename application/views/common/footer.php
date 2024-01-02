@@ -21,9 +21,8 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.png" alt="">
-              <span>FlexStart</span>
+            <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center">
+              <img src="assets/img/techie-logo.png" alt="Techie World">
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links mt-3">
@@ -58,12 +57,12 @@
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+            <p>Dr Rajendra Prasad Marg,<br />
+               Ward Number 2, <br />
+               Baghpat, UP 250609<br>
+               India<br/><br/>
+              <strong>Phone:</strong> +91 7500559400<br>
+              <strong>Email:</strong> info@techieworld.in<br>
             </p>
 
           </div>
@@ -74,14 +73,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong><span>Techie World</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->
