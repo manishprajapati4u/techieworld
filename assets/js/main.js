@@ -286,4 +286,15 @@
     aos_init();
   });
 
+
+  window.addEventListener('load', () => {  
+    // Get the element with the .bg-cover class
+    let bgCover = document.querySelector(".bg-cover");
+    // Get the data-image-src value from the element
+    let bgImage = bgCover.getAttribute("data-image-src");
+    // Set the background-image property using the data-image-src value
+    bgCover.style.backgroundImage = `url ('${bgImage}')`;
+ 
+  });
+
 })();
