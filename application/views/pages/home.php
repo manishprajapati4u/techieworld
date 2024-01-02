@@ -432,7 +432,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="pricing" class="pricing d-none">
 
       <div class="container" data-aos="fade-up">
 
