@@ -50,8 +50,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="<?php echo base_url('/'); ?>" title="Home">Home</a></li>
           <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>about-us" title="About">About</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>portfolio">Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">SaaS Applications</a></li>

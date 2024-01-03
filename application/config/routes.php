@@ -53,6 +53,7 @@ $route['default_controller'] = 'PagesController';
 
 $route['about-us'] =           'PagesController/about';
 $route['contact-us'] =            'PagesController/contact';
+$route['portfolio'] =            'PagesController/portfolio';
 
 
 //$route['about'] = 'PagesController/about';

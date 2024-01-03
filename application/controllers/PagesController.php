@@ -26,5 +26,14 @@ class PagesController extends CI_Controller {
         $this->load->view('pages/contact', $data);
         $this->load->view('common/footer', $data);
     }
+
+    public function portfolio() {
+        
+        $data['meta'] = array('title'=>'Contact Us','description'=>'Techie World is best web development company here.','keywords'=>'Web development');
+
+        $this->load->view('common/header', $data);
+        $this->load->view('pages/portfolio', $data);
+        $this->load->view('common/footer', $data);
+    }
   
 }
